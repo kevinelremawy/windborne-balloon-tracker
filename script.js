@@ -76,7 +76,7 @@ function renderBalloons(points) {
 // 3) FETCH 24-HOUR HISTORY
 // -------------------------
 
-const API_BASE = 'http://127.0.0.1:5000/api';
+const API_BASE = 'https://windborne-balloon-tracker.onrender.com/api';
 
 // Fetch one hour of balloon data
 async function fetchHour(hour) {
